@@ -1,0 +1,11 @@
+.nested {
+    margin-bottom: 0;
+}
+
+.nested span {
+    font-size: 7px;
+}
+
+th {
+    width: 33.33%;
+}

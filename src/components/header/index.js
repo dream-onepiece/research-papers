@@ -1,16 +1,20 @@
 import { Nav, Navbar, Container } from "react-bootstrap";
+import { Link } from 'react-router-dom';
+
+import './index.css';
 
 const Header = () => {
     return <header className="header" >
         <Navbar bg="light" expand="lg">
             <Container>
-                <Navbar.Brand href="#home">NLP</Navbar.Brand>
+                <Navbar.Brand href="#home"></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="#home">About</Nav.Link>
-                        <Nav.Link href="#link">Description</Nav.Link>
-                        <Nav.Link href="#model">Model</Nav.Link>
+                        <Link className="nav-link" to="/">About</Link>
+                        <Link className="nav-link" to="/models">Models</Link>
+                        <Link className="nav-link" to="/dataset">Dataset</Link>
+                        <Link className="nav-link" to="/how-to-use">How to use</Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
