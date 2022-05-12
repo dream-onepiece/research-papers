@@ -27,7 +27,6 @@ const Description = () => {
                 Large language models treat dependent inputs as independent even when they are not.
             </p>
             <div className='video-block'>
-                TODO : Confirm if we need to add play button
                 <img src='./videos/gif_one.gif' />
             </div>
             <p className='desc small'>
@@ -40,19 +39,19 @@ const Description = () => {
             </p>
             <div className='image desc block'>
                 <p className='desc small'>Building from the traditional language task, that is</p>
-                <img src='./images/tradi_lang_task.png' alt='Traditional Language task' />
+                <img className='medium' src='./images/tradi_lang_task.png' alt='Traditional Language task' />
             </div>
             <div className='image desc block'>
                 <p className='desc small'>In HuLM, we also condition on a user state</p>
-                <img src='./images/user_state.png' alt='User state' />
+                <img className='medium' src='./images/user_state.png' alt='User state' />
             </div>
             <div className='image desc block'>
                 <p className='desc small'>But, human states are somewhat stable but not entirely static.</p>
-                <img src='./images/stable.png' alt='Stable' />
+                <img className='medium' src='./images/stable.png' alt='Stable' />
             </div>
             <div className='image desc block'>
                 <p className='desc small'>To account for this, we condition on a dynamic user state:</p>
-                <img src='./images/dynamic_user_state.png' alt='Dynamic User state' />
+                <img className='medium' src='./images/dynamic_user_state.png' alt='Dynamic User state' />
             </div>
             <div className='image desc block'>
                 <p className='desc small'>To address HuLM, we introduce HaRT: Human-aware Recurrent Transformer, an auto-regressive transformer with a recurrent user state:</p>

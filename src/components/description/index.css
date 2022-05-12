@@ -40,3 +40,7 @@
     max-width: 80vw;
     margin: 0 auto;
 }
+
+.description img.medium {
+    width: 450px;
+}
