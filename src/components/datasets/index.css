@@ -1,0 +1,20 @@
+.dataset .ds.heading {
+    font-size: 24px;
+}
+
+.dataset .ds-title {
+    font-size: 20px;
+}
+
+.dataset .ds.block {
+    margin-bottom: 65px;
+}
+
+.dataset .bold {
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+.dataset .down-link {
+    color: rgba(0,0,0,0.78);
+}

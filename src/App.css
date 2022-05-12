@@ -13,3 +13,7 @@ main.center {
 main.light-center {
     max-width: 75%;
 }
+
+main.width-restrict {
+    max-width: 50%;
+}
