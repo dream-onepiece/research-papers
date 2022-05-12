@@ -1,0 +1,19 @@
+.icon {
+    width: 45px;
+    cursor: pointer;
+}
+
+.tables {
+    display: flex;
+    justify-content: space-around;
+}
+
+.models .model-heading {
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.models h3 {
+    font-size: 18px;
+    margin-bottom: 16px;
+}

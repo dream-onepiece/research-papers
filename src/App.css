@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto:wght@100;300&display=swap');
 
 main {
-    max-width: 50%;
+    
     margin: 0 auto;
     padding: 45px 0;
 }
 
 main.center {
+    max-width: 50%;
     text-align: center;
 }
