@@ -59,6 +59,7 @@ const Description = () => {
             <div className='image desc block'>
                 <p className='desc small'>But, human states are somewhat stable but not entirely static.</p>
                 <img className='medium' src='./images/stable.png' alt='Stable' />
+                <p className='info-alt'>{"(Washington Outsider, 2014)"}</p>
             </div>
             <div className='image desc block'>
                 <p className='desc small'>To account for this, we condition on a dynamic user state:</p>
