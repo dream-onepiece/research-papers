@@ -9,3 +9,7 @@
 th {
     width: 33.33%;
 }
+
+table {
+    min-width: 310px;
+}
