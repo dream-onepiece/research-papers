@@ -23,6 +23,15 @@
 
 .description .image.block {
     margin-bottom: 45px;
+    text-align: center;
+}
+
+.description .video-block {
+    text-align: center;
+}
+
+.description .image.block .desc {
+    text-align: left;
 }
 
 .description .desc.info {

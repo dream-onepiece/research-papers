@@ -6,8 +6,7 @@ main {
 }
 
 main.center {
-    max-width: 50%;
-    text-align: center;
+    max-width: 60%;
 }
 
 main.light-center {
