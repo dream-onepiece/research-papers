@@ -4,7 +4,6 @@ import './index.css';
 const Description = () => {
 
     return <div className='description'>
-        {/*<div className='content' dangerouslySetInnerHTML={{__html: content.data}} />*/}
         { true && <div className='content'>
             <h1 className='amatic heading'>
                 <span className='center block'>
@@ -17,6 +16,18 @@ const Description = () => {
                     HaRT: Human-aware Recurrent Transformers
                 </span>
             </h1>
+            <div className='links'>
+                <p className='link-block'>
+                    <a href='https://github.com/humanlab/HaRT' target="_blank">
+                        View Code
+                    </a>
+                </p>
+                <p className='link-block'> 
+                    <a href='https://arxiv.org/pdf/2205.05128.pdf' target="_blank">
+                        Read paper
+                    </a>
+                </p>
+            </div>
             <p className='desc info'>
                 Language modeling is fundamental to NLP, with many large transformer based models becoming widespread.
             </p>

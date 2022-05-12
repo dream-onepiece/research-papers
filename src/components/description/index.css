@@ -1,6 +1,7 @@
 .description .amatic {
     font-family: 'Amatic SC';
     margin-bottom: 65px;
+    font-weight: bold;
 }
 
 .description .block {
@@ -43,4 +44,24 @@
 
 .description img.medium {
     width: 450px;
+}
+
+.description .links {
+    display: flex;
+}
+
+.links .link-block {
+    margin-right: 15px;
+    background-color: rgba(0,0,0,0.05);
+    padding: 5px 15px;
+    border-radius: 6px;
+}
+
+.link-block a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: rgba(0,0,0,1);
 }

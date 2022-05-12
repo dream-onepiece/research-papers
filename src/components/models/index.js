@@ -41,7 +41,7 @@ const ModelsComponent = () => {
             </div>
         </div>
         <p className="desc refer">
-            Refer our <a href='https://arxiv.org/pdf/2205.05128.pdf'>paper</a> for details.
+            Refer our <a className="down-link" href='https://arxiv.org/pdf/2205.05128.pdf'>paper</a> for details.
         </p>
     </div>
 }
