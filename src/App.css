@@ -3,3 +3,7 @@
 main {
     padding: 45px;
 }
+
+main.center {
+    text-align: center;
+}

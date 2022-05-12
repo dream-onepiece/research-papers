@@ -4,7 +4,7 @@ import Header from '../components/header';
 const Home = () => {
     return <div className="page">
         <Header />
-        <main>
+        <main className='center'>
             <Description />
         </main>
     </div>
