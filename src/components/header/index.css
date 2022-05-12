@@ -12,3 +12,11 @@
     background-color: transparent !important;
     border-bottom: 1px solid #f1f1f1;
 }
+
+.header .navbar-brand {
+    font-weight: bold;
+}
+
+.header .icon-space {
+    margin-right: 5px;
+}

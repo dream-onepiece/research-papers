@@ -4,7 +4,7 @@ import Header from '../components/header';
 const Models = () => {
     return <div className="page">
         <Header />
-        <main>
+        <main className='light-center'>
             <ModelsComponent />
         </main>
     </div>
