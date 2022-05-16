@@ -18,11 +18,13 @@ const Description = () => {
             </h1>
             <div className='links'>
                 <p className='link-block'>
+                    <img src='./images/coding.png' className='link-icon' alt='View Code' />
                     <a href='https://github.com/humanlab/HaRT' target="_blank">
                         View Code
                     </a>
                 </p>
-                <p className='link-block'> 
+                <p className='link-block'>
+                    <img src='./images/paper.png' className='link-icon' alt='Read Paper' />
                     <a href='https://arxiv.org/pdf/2205.05128.pdf' target="_blank">
                         Read paper
                     </a>

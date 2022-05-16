@@ -67,6 +67,13 @@
     display: flex;
 }
 
+.description .link-icon {
+    height: 16px;
+    padding-right: 8px;
+    position: relative;
+    top: -1px;
+}
+
 .description .lan-heading {
     margin-top: 35px;
     font-size: 30px;
