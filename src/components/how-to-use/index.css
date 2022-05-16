@@ -1,0 +1,25 @@
+.how-to-use h1 {
+    font-size: 27px;
+}
+
+.how-to-use .heading-main {
+    font-size: 25px;
+}
+
+.how-to-use .heading-sub {
+    font-weight: 300;
+    font-size: 21px;
+}
+
+.how-to-use .desc-use {
+    font-family: Roboto;
+}
+
+.how-to-use .readme {
+    margin-top: 45px;
+    font-size: 24px;
+}
+
+.how-to-use .readme-link {
+    color: #010101;
+}

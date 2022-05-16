@@ -63,6 +63,11 @@
     display: flex;
 }
 
+.description .lan-heading {
+    margin-top: 35px;
+    font-size: 30px;
+}
+
 .links .link-block {
     margin-right: 15px;
     background-color: rgba(0,0,0,0.05);

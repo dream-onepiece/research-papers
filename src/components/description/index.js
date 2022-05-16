@@ -28,7 +28,7 @@ const Description = () => {
                     </a>
                 </p>
             </div>
-            <h2 className='temp'>
+            <h2 className='lan-heading'>
                 Language Modeling as a task grounded in the “natural”  generators of language, people.
             </h2>
             <p className='desc info'>
