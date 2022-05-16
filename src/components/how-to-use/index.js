@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './index.css';
 
 const HowToUseComponent = () => {
@@ -6,6 +7,35 @@ const HowToUseComponent = () => {
         <h1>
             {"HaRT is a language model that can be used like a traditional language model and MORE >>"}
         </h1>
+
+        <div className='info-section'>
+        <p className='info-text'>
+            
+            <p>
+                HaRT pre-trains on the <Link to="/">HuLM</Link> task, making use of the historical data from a user. 
+                HaRT model pre-trained using Twitter <Link to="/dataset">dataset</Link> can be downloaded <a className="down-link" href='https://arxiv.org/pdf/2205.05128.pdf'>here</a>.
+            </p>
+            <p>
+                Pre-trained HaRT can be used to apply on document-level tasks like any other pre-trained transformer-based language model: 
+            </p>
+            <ul>
+             <li>with user's historical context</li>
+             <li>without user's historical context (if unavailable)</li>
+            </ul>
+            <p>Pre-trained HaRT can also be applied to user-level downstream tasks.</p>
+            <p className='top-space'>Our <Link to="">paper</Link> evaluate on 2 document-level tasks:</p>
+
+            <ul>
+                <li>Sentiment Analysis</li>
+                <li>Stance Detection </li>
+            </ul>
+            <p>and 2 user-level tasks:</p>
+            <ul>
+                <li>Age estimation</li>
+                <li>(Openness) Personality assessment</li>
+            </ul>
+        </p>
+        </div>
 
 
         <p className="heading-main">The Basics:</p>

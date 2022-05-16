@@ -18,3 +18,7 @@
 .dataset .down-link {
     color: rgba(0,0,0,0.78);
 }
+
+.dataset .data-link {
+    color: rgba(0,0,0,0.75);
+}

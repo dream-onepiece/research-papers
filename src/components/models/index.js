@@ -6,7 +6,7 @@ import './index.css';
 const ModelsComponent = () => {
     return <div className="models component">
         <h1 className="model-heading">
-           Download HaRT model pre-trained on Twitter <Link className="down-link" to="/dataset">dataset</Link> <a download={true} href="https://drive.google.com/uc?export=download&id=1MGJN1Fp21Q7lPbICNx2_D5qZg8gG0Qla"><img className="icon" src='./images/download.webp' alt='Download dataset' /></a>
+        <a download={true} href="https://drive.google.com/uc?export=download&id=1MGJN1Fp21Q7lPbICNx2_D5qZg8gG0Qla"><img className="icon" src='./images/download.webp' alt='Download dataset' /></a> Download HaRT model pre-trained on Twitter <Link className="down-link" to="/dataset">dataset</Link>
         </h1>
         <p className="model-subhead">
             Reference metrics:
@@ -15,13 +15,13 @@ const ModelsComponent = () => {
             <div className="table-holder">
                 <h3>Language Model Perplexity:</h3>
                 <CustomTable
-                columns={['Model','Test (ppl)']}
+                columns={['Model','Test (ppl)','Test-Twitter (ppl)']}
                 rows={
                     [
-                        [{title: 'GPT-2', subTitle: 'frozen'},'116.35'],
-                        [{title: 'GPT-2', subTitle: 'HLC'},'48.51'],
-                        [{title: 'HaRT', subTitle: 'Twitter'},'33.15'],
-                        ['HaRT','26.11']
+                        [{title: 'GPT-2', subTitle: 'frozen'},'116.35','00.00'],
+                        [{title: 'GPT-2', subTitle: 'HLC'},'48.51','00.00'],
+                        [{title: 'HaRT', subTitle: 'Twitter'},'33.15','23.76'],
+                        ['HaRT','26.11','24.87']
                     ]
                 }
             />

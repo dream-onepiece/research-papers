@@ -56,7 +56,11 @@
 }
 
 .description img.medium {
-    width: 450px;
+    height: 70px;
+}
+
+.description .width-control {
+    width: 580px;
 }
 
 .description .links {

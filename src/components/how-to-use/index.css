@@ -2,6 +2,18 @@
     font-size: 27px;
 }
 
+.how-to-use .info-section {
+    margin: 45px 0;
+}
+
+.how-to-use a {
+    color: #010101;
+}
+
+.how-to-use .top-space {
+    margin-top: 45px;
+}
+
 .how-to-use .heading-main {
     font-size: 25px;
 }

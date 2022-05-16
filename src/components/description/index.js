@@ -61,7 +61,7 @@ const Description = () => {
             </div>
             <div className='image desc block'>
                 <p className='desc small'>But, human states are somewhat stable but not entirely static.</p>
-                <img className='medium' src='./images/stable.png' alt='Stable' />
+                <img className='width-control' src='./images/stable.png' alt='Stable' />
                 <p className='info-alt'>{"(Washington Outsider, 2014)"}</p>
             </div>
             <div className='image desc block'>
@@ -70,7 +70,7 @@ const Description = () => {
             </div>
             <div className='image desc block'>
                 <p className='desc small'>To address HuLM, we introduce HaRT: Human-aware Recurrent Transformer, an auto-regressive transformer with a recurrent user state:</p>
-                <video autoPlay muted controls>
+                <video autoPlay muted controls width="600px" >
                     <source src='./videos/video_transformer.mp4' type="video/mp4"/>
                 </video>
             </div>

@@ -12,7 +12,7 @@ const DataSetComponent = () => {
                     Labeled dataset:  
                 </span>
                 <span className="ds-desc label">
-                    SemEval2016 dataset (Mohammad et al., 2016)
+                    SemEval2016 dataset (<a className='data-link' href="https://aclanthology.org/S16-1003/" target="_blank">Mohammad et al., 2016</a>)
                 </span>
             </p>
             <p className="ds-desc medium">
@@ -20,7 +20,7 @@ const DataSetComponent = () => {
                     Historical Context:
                 </span>
                 <span className="ds-desc label">
-                    A subset of the extended dataset from Lynn et al. (2019)
+                    A subset of the extended dataset from <a className='data-link' target="_blank" href='https://aclanthology.org/W19-2103/'>Lynn et al. (2019)</a>
                 </span>
             </p>
             <p className="ds-desc download">
@@ -34,7 +34,7 @@ const DataSetComponent = () => {
                     Labeled dataset:  
                 </span>
                 <span className="ds-desc label">
-                    SemEval-2013 dataset (Nakov et al., 2013)
+                    SemEval-2013 dataset (<a target="_blank" className='data-link' href="https://aclanthology.org/S13-2052/">Nakov et al., 2013</a>)
                 </span>
             </p>
             <p className="ds-desc medium">
@@ -42,7 +42,7 @@ const DataSetComponent = () => {
                     Historical Context: 
                 </span>
                 <span className="ds-desc label">
-                    A subset of the extended dataset from Lynn et al. (2019) 
+                    A subset of the extended dataset from <a target="_blank" className='data-link' href='https://aclanthology.org/W19-2103/'>Lynn et al. (2019)</a> 
                 </span>
             </p>
             <p className="ds-desc download">
@@ -58,7 +58,7 @@ const DataSetComponent = () => {
                     Dataset:  
                 </span>
                 <span className="ds-desc label">
-                A subset of the County Tweet Lexical Bank (Giorgi et al., 2018) appended with newer 2019 and 2020 tweets, in total spanning 2009 through 2020.
+                A subset of the County Tweet Lexical Bank (<a target="_blank" className='data-link' href='https://aclanthology.org/D18-1148/'>Giorgi et al., 2018</a>) appended with newer 2019 and 2020 tweets, in total spanning 2009 through 2020.
                 </span>
             </p>
             
