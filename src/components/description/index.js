@@ -31,18 +31,23 @@ const Description = () => {
                 </p>
             </div>
             <div className='goal-section'>
+                <p className='new-heading'>Goal:</p>
                 <h2 className='lan-heading'>
                     Language Modeling as a task grounded in the “natural”  generators of language, people.
                 </h2>
                 <img className='height-control' src='./images/goal.png' alt='Goal' />
-                <img src='./images/overlay.png' alt='' />
+                <img className='overlay' src='./images/overlay.png' alt='' />
             </div>
+            
+            <p className='new-heading'>Background:</p>
             <p className='desc info'>
                 Language modeling is fundamental to NLP, with many large transformer based models becoming widespread.
             </p>
             <div className='image-block fundamental'>
                 <img src='./images/fundamental_LM.png' alt='models' />
             </div>
+            
+            <p className='new-heading'>So, What's missing?</p>
             <p className='desc info'>
                 Large language models treat dependent inputs as independent even when they are not.
             </p>
@@ -53,6 +58,10 @@ const Description = () => {
                 <span className='left block'>
                     Additionally, the inherent higher order structure of language, which is words come from documents and documents come from humans, is not explicit in the language modeling tasks of large LMs.
                 </span>
+                
+            </p>
+            <p className='new-heading'>How do we fill the gaps?</p>
+            <p className='desc small'>
                 <span className='left block'>
                     To address these gaps, we propose Human Language Modeling (HuLM), a language modeling task grounded in the "natural" generators of language, people.
                 </span>

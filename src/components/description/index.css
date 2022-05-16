@@ -38,8 +38,14 @@
     text-align: left;
 }
 
+.description .overlay {
+    height: 75px;
+    position: relative;
+    right: -75px;
+}
+
 .description .desc.info {
-    margin: 45px 0;
+    margin: 15px 0;
     font-family: Roboto;
     font-size: 22px;
 }
@@ -78,12 +84,19 @@
     top: -1px;
 }
 
+.description .new-heading {
+    font-weight: bold;
+    text-align: left;
+    font-size: 24px;
+    font-family: 'Roboto';
+}
+
 .description .height-control {
     height: 50px;
 }
 
 .description .lan-heading {
-    margin: 35px 0;
+    margin: 15px 0 45px;
     font-size: 30px;
     text-align: left;
 }

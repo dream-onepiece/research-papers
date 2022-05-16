@@ -16,24 +16,39 @@ const HowToUseComponent = () => {
                 HaRT model pre-trained using Twitter <Link to="/dataset">dataset</Link> can be downloaded <a className="down-link" href='https://arxiv.org/pdf/2205.05128.pdf'>here</a>.
             </p>
             <p>
-                Pre-trained HaRT can be used to apply on document-level tasks like any other pre-trained transformer-based language model: 
+                Pre-trained HaRT can be used to apply on: 
             </p>
             <ul>
-             <li>with user's historical context</li>
-             <li>without user's historical context (if unavailable)</li>
+                <li>
+                    document-level tasks like any other pre-trained transformer-based language model:
+                    <ul>
+                        <li>with user's historical context</li>
+                        <li>without user's historical context (if unavailable)</li>
+                    </ul>
+                </li>
+                
+                <li>Pre-trained HaRT can also be applied to user-level downstream tasks.</li>
             </ul>
-            <p>Pre-trained HaRT can also be applied to user-level downstream tasks.</p>
-            <p className='top-space'>Our <a href="https://arxiv.org/pdf/2205.05128.pdf" target="_blank">paper</a> evaluate on 2 document-level tasks:</p>
-
+            
+            <p className='top-space'>Our <a href="https://arxiv.org/pdf/2205.05128.pdf" target="_blank">paper</a> evaluates on:</p>
             <ul>
-                <li>Sentiment Analysis</li>
-                <li>Stance Detection </li>
+                <li className='outer-li' >
+                    2 document-level tasks:
+                    <ul>
+                        <li>Sentiment Analysis</li>
+                        <li>Stance Detection </li>
+                    </ul>
+                </li>
+                <li className='outer-li'>
+                    2 user-level tasks:
+                    <ul>
+                        <li>Age estimation</li>
+                        <li>(Openness) Personality assessment</li>
+                    </ul>
+                </li>
             </ul>
-            <p>and 2 user-level tasks:</p>
-            <ul>
-                <li>Age estimation</li>
-                <li>(Openness) Personality assessment</li>
-            </ul>
+            
+            
         </p>
         </div>
 
