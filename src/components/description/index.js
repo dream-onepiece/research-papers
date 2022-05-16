@@ -67,7 +67,9 @@ const Description = () => {
             </div>
             <div className='image desc block'>
                 <p className='desc small'>To address HuLM, we introduce HaRT: Human-aware Recurrent Transformer, an auto-regressive transformer with a recurrent user state:</p>
-                <img src='./videos/gif_transformer.gif' />
+                <video autoPlay muted controls>
+                    <source src='./videos/video_transformer.mp4' type="video/mp4"/>
+                </video>
             </div>
         </div> }
     </div>

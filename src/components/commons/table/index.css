@@ -13,3 +13,11 @@ th {
 table {
     min-width: 400px;
 }
+
+table.roboto {
+    font-family: 'Roboto';
+}
+
+.table>:not(:first-child) {
+    border-top-width: 1px;
+}

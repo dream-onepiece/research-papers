@@ -6,7 +6,7 @@ const CustomTable = ( props ) => {
 
     const { columns, rows } = props;
 
-    return <Table bordered>
+    return <Table className="roboto" bordered>
     <thead>
       <tr>
         { columns.map(column => <th key={column}>{ column }</th>) }
