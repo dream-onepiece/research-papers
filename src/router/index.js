@@ -3,6 +3,7 @@ import ContactUS from "../pages/contact-us";
 import DataSets from "../pages/datasets";
 
 import Home from '../pages/home';
+import HowToUse from "../pages/how-to-use";
 import Models from '../pages/models';
 
 const ResearchRouter = () => {
@@ -11,7 +12,7 @@ const ResearchRouter = () => {
       <Route path="/" element={<Home />} />
       <Route path="models" element={<Models />} />
       <Route path="dataset" element={<DataSets />} />
-      <Route path="how-to-use" element={<Home />} />
+      <Route path="how-to-use" element={<HowToUse />} />
       <Route path="contact-us" element={<ContactUS />} />
     </Routes>
   </BrowserRouter>

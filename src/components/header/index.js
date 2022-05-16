@@ -17,7 +17,7 @@ const Header = () => {
                         <Link className="nav-link" to="/models">Models</Link>
                         <Link className="nav-link" to="/dataset">Dataset</Link>
                         <Link className="nav-link" to="/how-to-use">How to use?</Link>
-                        <Link className="nav-link" to="/contact-us">Contact US</Link>
+                        <Link className="nav-link" to="/contact-us">Contact Us</Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
