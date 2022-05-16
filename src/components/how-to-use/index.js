@@ -23,7 +23,7 @@ const HowToUseComponent = () => {
              <li>without user's historical context (if unavailable)</li>
             </ul>
             <p>Pre-trained HaRT can also be applied to user-level downstream tasks.</p>
-            <p className='top-space'>Our <Link to="">paper</Link> evaluate on 2 document-level tasks:</p>
+            <p className='top-space'>Our <a href="https://arxiv.org/pdf/2205.05128.pdf" target="_blank">paper</a> evaluate on 2 document-level tasks:</p>
 
             <ul>
                 <li>Sentiment Analysis</li>

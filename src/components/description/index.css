@@ -67,6 +67,10 @@
     display: flex;
 }
 
+.description .goal-section {
+    text-align: center;
+}
+
 .description .link-icon {
     height: 16px;
     padding-right: 8px;
@@ -74,9 +78,14 @@
     top: -1px;
 }
 
+.description .height-control {
+    height: 50px;
+}
+
 .description .lan-heading {
-    margin-top: 35px;
+    margin: 35px 0;
     font-size: 30px;
+    text-align: left;
 }
 
 .links .link-block {

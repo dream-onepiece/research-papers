@@ -30,9 +30,13 @@ const Description = () => {
                     </a>
                 </p>
             </div>
-            <h2 className='lan-heading'>
-                Language Modeling as a task grounded in the “natural”  generators of language, people.
-            </h2>
+            <div className='goal-section'>
+                <h2 className='lan-heading'>
+                    Language Modeling as a task grounded in the “natural”  generators of language, people.
+                </h2>
+                <img className='height-control' src='./images/goal.png' alt='Goal' />
+                <img src='./images/overlay.png' alt='' />
+            </div>
             <p className='desc info'>
                 Language modeling is fundamental to NLP, with many large transformer based models becoming widespread.
             </p>
