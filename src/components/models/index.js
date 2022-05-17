@@ -20,8 +20,8 @@ const ModelsComponent = () => {
                     [
                         [{title: 'GPT-2', subTitle: 'frozen'},'116.35','144.67'],
                         [{title: 'GPT-2', subTitle: 'HLC'},'48.51','39.93'],
-                        [{title: 'HaRT', subTitle: 'Twitter'},'33.15','23.96'],
-                        ['HaRT','26.11','24.87']
+                        [{title: 'HaRT', subTitle: 'Twitter'},'33.15','23.76'],
+                        ['HaRT','26.11','24.70']
                     ]
                 }
             />
