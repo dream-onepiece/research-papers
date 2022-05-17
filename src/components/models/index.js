@@ -18,10 +18,10 @@ const ModelsComponent = () => {
                 columns={['Model','Test (ppl)','Test-Twitter (ppl)']}
                 rows={
                     [
-                        [{title: 'GPT-2', subTitle: 'frozen'},'116.35','00.00'],
-                        [{title: 'GPT-2', subTitle: 'HLC'},'48.51','00.00'],
+                        [{title: 'GPT-2', subTitle: 'frozen'},'116.35','144.67'],
+                        [{title: 'GPT-2', subTitle: 'HLC'},'48.51','39.93'],
                         [{title: 'HaRT', subTitle: 'Twitter'},'33.15','23.76'],
-                        ['HaRT','26.11','24.87']
+                        ['HaRT','26.11','24.70']
                     ]
                 }
             />
