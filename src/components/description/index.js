@@ -18,7 +18,7 @@ const Description = () => {
     }
 
     useEffect(() => {
-        window.addEventListener('scroll', playVideoOnScroll, false);
+        //window.addEventListener('scroll', playVideoOnScroll, false);
     }, [])
 
     return <div className='description'>
