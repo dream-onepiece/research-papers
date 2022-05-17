@@ -7,11 +7,14 @@
 
 .tables {
     display: flex;
-    justify-content: space-between;
 }
 
 .models .model-heading {
     margin-bottom: 45px;
+}
+
+.models .table-holder:last-child {
+    margin-left: 175px;
 }
 
 .models .model-subhead {
