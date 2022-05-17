@@ -6,6 +6,10 @@
     font-size: 20px;
 }
 
+.dataset .ds-desc.label.normal {
+    font-family: 'Roboto';
+}
+
 .dataset .ds.block {
     margin-bottom: 65px;
 }

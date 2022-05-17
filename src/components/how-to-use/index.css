@@ -14,6 +14,10 @@
     margin-bottom: 15px;
 }
 
+.how-to-use .info-text {
+    font-family: 'Roboto';
+}
+
 .how-to-use .top-space {
     margin-top: 45px;
 }
