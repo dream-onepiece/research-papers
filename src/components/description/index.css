@@ -46,18 +46,22 @@
 
 .description .desc.info {
     margin: 15px 0;
-    font-family: Roboto;
-    font-size: 20px;
 }
 
 .description .fundamental {
     margin-bottom: 25px;
 }
 
+.description .video-block .gif-img {
+    margin-top: -42px;
+    z-index: -1;
+    position: relative;
+}
+
 .description .fundamental img {
     width: 780px;
     max-width: 80vw;
-    margin: 0 auto;
+    margin-left: 42px;
 }
 
 .description img.medium {
@@ -74,7 +78,7 @@
 
 .description .goal-section {
     text-align: center;
-    margin: 25px 0 60px;
+    margin-top: 25px;
 }
 
 .description .link-icon {
@@ -87,17 +91,15 @@
 .description .new-heading {
     font-weight: bold;
     text-align: left;
-    font-size: 24px;
-    font-family: 'Roboto';
+    margin-top: 35px;
 }
 
 .description .height-control {
-    height: 50px;
+    height: 45px;
 }
 
 .description .lan-heading {
     margin: 15px 0 45px;
-    font-size: 30px;
     text-align: left;
 }
 

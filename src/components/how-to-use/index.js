@@ -4,12 +4,12 @@ import './index.css';
 const HowToUseComponent = () => {
 
     return <div className="component how-to-use">
-        <h1>
+        <h1 className='h1'>
             {"HaRT is a language model that can be used like a traditional language model and MORE >>"}
         </h1>
 
         <div className='info-section'>
-        <p className='info-text'>
+        <p className='info-text body-copy'>
             
             <p>
                 HaRT pre-trains on the <Link to="/">HuLM</Link> task, making use of the historical data from a user. 
@@ -53,70 +53,65 @@ const HowToUseComponent = () => {
         </div>
 
 
-        <p className="heading-main">The Basics:</p>
+        <p className="heading-main h2">The Basics:</p>
 
-        <p className="heading-sub">Inputs:</p>
-        <p className="desc-use">
+        <h3 className="heading-sub h3">Inputs:</h3>
+        <p className="desc-use body-copy">
             HaRT takes the input text sequences with user identifiers and automatically creates blocks of user text sequences from the inputs.
-            A block is a temporally ordered sequence of messages (text document) of a user separated by a special token <insep />
+            A block is a temporally ordered sequence of messages (text document) of a user separated by a special token
         </p>
-        <p className="heading-sub"> What if historical context is unavailable? </p>
-        <p className="desc-use"> 
+        <h3 className="heading-sub h3"> What if historical context is unavailable? </h3>
+        <p className="desc-use body-copy"> 
         Just the same! HaRT still takes in inputs in the same format (values of user identifier become redundant here: may use arbitrary values.)
         In this case, HaRT loads the inputs like any other transformer-based language model, but still makes use of the pre-trained weights for user states.
         </p>
-        <p className="heading-sub"> Outputs: </p>
-        <p className="desc-use">
+        <h3 className="heading-sub h3"> Outputs: </h3>
+        <p className="desc-use body-copy">
             HaRT can output hidden states of input text sequences and user states corresponding to each block.
         </p>
 
 
-        <p className="heading-main">
+        <p className="heading-main h2">
             How to use HaRT for document-level tasks?
         </p>
-        <p className="desc-use"> 
-            <p>
-                <p className="heading-sub">Inputs:</p> The input format is the same but for an additional label column.
-            </p>
-            <p>
-                <p className="heading-sub">Outputs:</p>
-                Weighted F1 (along with other metrics)
-            </p>
-        </p>
-        <p className='heading-sub' >
+                <h3 className="heading-sub h3">Inputs:</h3> 
+                <p className="desc-use body-copy">The input format is the same but for an additional label column.</p>
+                <h3 className="heading-sub h3">Outputs:</h3>
+                <p className="desc-use body-copy">Weighted F1 (along with other metrics)</p>
+        <h3 className='heading-sub h3' >
             Process:
-        </p>
-        <p className="desc-use">
+        </h3>
+        <p className="desc-use body-copy">
             HaRT uses the last non-padded tokens representation/hidden states to produce document-level predictions (classification/regression).
         </p>
-        <p className="heading-sub">
+        <h3 className="heading-sub h3">
             How to use HaRT for document-level tasks if historical context is unavailable?
-        </p>
-        <p className="desc-use">
+        </h3>
+        <p className="desc-use body-copy">
             Just the same! 
         </p>
 
-        <p className="heading-main">
+        <p className="heading-main h2">
             How to use HaRT for user-level tasks?
         </p>
-        <p className="desc-use">
-            <p>
-                <p className="heading-sub">Inputs:</p> 
+            <h3 className="heading-sub h3">Inputs:</h3> 
+            <p className="desc-use body-copy">
                 The input format is the same but for an additional label column (replicating the same label for the same user's different input text sequences).
             </p>
-            <p>
-                <p className="heading-sub">Outputs:</p> 
-                Pearson r correlation and dis-attenuated pearson r correlation  (along with other metrics)
+        <p>
+                <h3 className="heading-sub h3">Outputs:</h3> 
+                <p className="desc-use body-copy">
+                    Pearson r correlation and dis-attenuated pearson r correlation  (along with other metrics)
+                </p>
             </p>
-        </p>
-        <p className='heading-sub'>
+        <h3 className='heading-sub h3'>
             Process:
-        </p>
-        <p className="desc-use">
+        </h3>
+        <p className="desc-use body-copy">
             HaRT uses the average of the user states, from input blocks from the same user, as the user representation to produce user-level predictions (classificiation/regression).
         </p>
-        <p className="desc-use readme">
-            For more details, please refer to <a href="#" className='readme-link' target="_blank"> Readme </a>
+        <p className="desc-use readme h2">
+            Refer the github <a href="#" className='readme-link' target="_blank">readme</a> for more details.
         </p>
     </div>
 

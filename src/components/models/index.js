@@ -5,15 +5,15 @@ import './index.css';
 
 const ModelsComponent = () => {
     return <div className="models component">
-        <h1 className="model-heading">
+        <h1 className="model-heading h1">
         <a download={true} href="https://drive.google.com/uc?export=download&id=1MGJN1Fp21Q7lPbICNx2_D5qZg8gG0Qla"><img className="icon" src='./images/download.webp' alt='Download dataset' /></a> Download HaRT model pre-trained on Twitter <Link className="down-link" to="/dataset">dataset</Link>
         </h1>
-        <p className="model-subhead">
+        <p className="model-subhead h2">
             Reference metrics:
         </p>
         <div className="tables">
             <div className="table-holder">
-                <h3>Language Model Perplexity:</h3>
+                <h3 className="h3">Language Model Perplexity:</h3>
                 <CustomTable
                 columns={['Model','Test (ppl)','Test-Twitter (ppl)']}
                 rows={
@@ -27,7 +27,7 @@ const ModelsComponent = () => {
             />
             </div>
             <div className="table-holder">
-                <h3>Document-level Downstream Tasks:</h3>
+                <h3 className="h3">Document-level Downstream Tasks:</h3>
                 <CustomTable
                 columns={['Model','Stance (F1)','Sentiment (F1)']}
                 rows={
@@ -40,7 +40,7 @@ const ModelsComponent = () => {
             />
             </div>
         </div>
-        <p className="desc refer">
+        <p className="desc refer h1">
             Refer our <a className="down-link" href='https://arxiv.org/pdf/2205.05128.pdf'>paper</a> for details.
         </p>
     </div>

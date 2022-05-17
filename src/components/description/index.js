@@ -1,7 +1,25 @@
+import { useEffect, useRef } from 'react';
 import content from './content.json';
 import './index.css';
 
 const Description = () => {
+
+    let videoRef = useRef(null);
+
+    const playVideoOnScroll = () => {
+        const threshold = 300;
+        let video = videoRef.current;
+        let offset = video.getBoundingClientRect().top
+        if (offset < threshold) {
+            video.play()
+        } else {
+            video.pause()
+        }
+    }
+
+    useEffect(() => {
+        window.addEventListener('scroll', playVideoOnScroll, false);
+    }, [])
 
     return <div className='description'>
         { true && <div className='content'>
@@ -31,61 +49,66 @@ const Description = () => {
                 </p>
             </div>
             <div className='goal-section'>
-                <p className='new-heading'>Goal:</p>
-                <h2 className='lan-heading'>
+                <p className='new-heading h2'>Goal:</p>
+                <h2 className='lan-heading h1'>
                     Language Modeling as a task grounded in the “natural”  generators of language, people.
                 </h2>
-                <img className='height-control' src='./images/goal.png' alt='Goal' />
-                <img className='overlay' src='./images/overlay.png' alt='' />
+                <div className='parent-image'>
+                    <img className='height-control' src='./images/goal.png' alt='Goal' />
+                </div>
+                <div className='child-image'>
+                    <img className='overlay' src='./images/overlay.png' alt='' />
+                </div>
+                
             </div>
             
-            <p className='new-heading'>Background:</p>
-            <p className='desc info'>
+            <p className='new-heading h2'>Background:</p>
+            <p className='desc info body-copy'>
                 Language modeling is fundamental to NLP, with many large transformer based models becoming widespread.
             </p>
             <div className='image-block fundamental'>
                 <img src='./images/fundamental_LM.png' alt='models' />
             </div>
             
-            <p className='new-heading'>So, What's missing?</p>
-            <p className='desc info'>
+            <p className='new-heading h2'>So, What's missing?</p>
+            <p className='desc info body-copy'>
                 Large language models treat dependent inputs as independent even when they are not.
             </p>
             <div className='video-block'>
-                <img src='./videos/gif_one.gif' />
+                <img src='./videos/gif_one.gif' className='gif-img' />
             </div>
             <p className='desc small'>
-                <span className='left block'>
+                <span className='left block body-copy'>
                     Additionally, the inherent higher order structure of language, which is words come from documents and documents come from humans, is not explicit in the language modeling tasks of large LMs.
                 </span>
                 
             </p>
-            <p className='new-heading'>How do we fill the gaps?</p>
-            <p className='desc small'>
+            <p className='new-heading h2'>How do we fill the gaps?</p>
+            <p className='desc info body-copy'>
                 <span className='left block'>
                     To address these gaps, we propose Human Language Modeling (HuLM), a language modeling task grounded in the "natural" generators of language, people.
                 </span>
             </p>
             <div className='image desc block'>
-                <p className='desc small'>Building from the traditional language task, that is</p>
+                <p className='desc body-copy'>Building from the traditional language task, that is</p>
                 <img className='medium' src='./images/tradi_lang_task.png' alt='Traditional Language task' />
             </div>
             <div className='image desc block'>
-                <p className='desc small'>In HuLM, we also condition on a user state</p>
+                <p className='desc body-copy'>In HuLM, we also condition on a user state</p>
                 <img className='medium' src='./images/user_state.png' alt='User state' />
             </div>
             <div className='image desc block'>
-                <p className='desc small'>But, human states are somewhat stable but not entirely static.</p>
+                <p className='desc body-copy'>But, human states are somewhat stable but not entirely static.</p>
                 <img className='width-control' src='./images/stable.png' alt='Stable' />
                 <p className='info-alt'>{"(Washington Outsider, 2014)"}</p>
             </div>
             <div className='image desc block'>
-                <p className='desc small'>To account for this, we condition on a dynamic user state:</p>
+                <p className='desc body-copy'>To account for this, we condition on a dynamic user state:</p>
                 <img className='medium' src='./images/dynamic_user_state.png' alt='Dynamic User state' />
             </div>
             <div className='image desc block'>
-                <p className='desc small'>To address HuLM, we introduce HaRT: Human-aware Recurrent Transformer, an auto-regressive transformer with a recurrent user state:</p>
-                <video loop autoPlay muted controls width="600px" >
+                <p className='desc body-copy'>To address HuLM, we introduce HaRT: Human-aware Recurrent Transformer, an auto-regressive transformer with a recurrent user state:</p>
+                <video ref={videoRef} autoPlay muted controls width="600px" >
                     <source src='./videos/video_transformer.mp4' type="video/mp4"/>
                 </video>
             </div>

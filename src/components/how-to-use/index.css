@@ -1,7 +1,3 @@
-.how-to-use h1 {
-    font-size: 27px;
-}
-
 .how-to-use .info-section {
     margin: 45px 0;
 }
@@ -14,30 +10,16 @@
     margin-bottom: 15px;
 }
 
-.how-to-use .info-text {
-    font-family: 'Roboto';
-}
-
 .how-to-use .top-space {
     margin-top: 45px;
 }
 
 .how-to-use .heading-main {
-    font-size: 25px;
-}
-
-.how-to-use .heading-sub {
-    font-weight: 300;
-    font-size: 21px;
-}
-
-.how-to-use .desc-use {
-    font-family: Roboto;
+    margin: 25px 0;
 }
 
 .how-to-use .readme {
     margin-top: 45px;
-    font-size: 24px;
 }
 
 .how-to-use .readme-link {
