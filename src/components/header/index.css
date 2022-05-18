@@ -6,6 +6,7 @@
 .header .nav-link {
     margin-right: 15px;
     font-weight: 500;
+    font-family: var(--primary-font);
 }
 
 .header .bg-light {
@@ -15,6 +16,7 @@
 
 .header .navbar-brand {
     font-weight: bold;
+    font-family: var(--primary-font);
 }
 
 .header .icon-space {
