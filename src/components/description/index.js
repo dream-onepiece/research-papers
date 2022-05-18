@@ -1,6 +1,5 @@
 import { useEffect, useRef } from 'react';
 import ModelsComponent from '../models';
-import content from './content.json';
 import './index.css';
 
 const Description = () => {

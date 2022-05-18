@@ -16,7 +16,7 @@ const Header = () => {
                     <Nav className="me-auto">
                         <div className="nav-link-block">
                             <img src='./icons/code.svg' alt='' />
-                            <a className="nav-link" href="https://github.com/humanlab/HaRT">Download Models and Code</a>
+                            <a target="_blank" className="nav-link" href="https://github.com/humanlab/HaRT">Download Models and Code</a>
                         </div>
                         {/*<div className='nav-link-block'>
                             <img src='./icons/cube.svg' alt='' />
@@ -27,12 +27,12 @@ const Header = () => {
                             <Link className="nav-link" to="/dataset">Dataset</Link>
                         </div>
                         <div className="nav-link-block">
-                            <img src='./icons/document.svg' alt='' />
+                            <img src='./icons/manual-book.svg' alt='' />
                             <Link className="nav-link" to="/how-to-use">How to use?</Link>
                         </div>
                         <div className="nav-link-block">
                             <img src='./icons/document.svg' alt='' />
-                            <a className="nav-link" href="https://github.com/humanlab/HaRT">Read Paper</a>
+                            <a target="_blank" className="nav-link" href="https://arxiv.org/pdf/2205.05128.pdf">Read Paper</a>
                         </div>
                         <div className="nav-link-block">
                             <img src='./icons/email.svg' alt='' />
