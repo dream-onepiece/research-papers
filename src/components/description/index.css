@@ -81,6 +81,22 @@
     margin-top: 25px;
 }
 
+.description .sub-scr {
+    font-size: 10px;
+    position: relative;
+    top: 4px;
+    left: -4px;
+}
+
+.description .note .bold {
+    font-weight: bold;
+}
+
+.description .note {
+    margin-top: 25px;
+    text-align: left;
+}
+
 .description .link-icon {
     height: 16px;
     padding-right: 8px;
@@ -92,6 +108,10 @@
     font-weight: bold;
     text-align: left;
     margin-top: 35px;
+}
+
+.description .models-content {
+    margin-top: 25px;
 }
 
 .description .height-control {

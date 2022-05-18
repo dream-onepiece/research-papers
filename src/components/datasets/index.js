@@ -50,7 +50,7 @@ const DataSetComponent = () => {
             </p>
         </div>
         <p className="ds heading h1">
-            Pre-training Dataset:
+            Pretraining and Evaluation Datasets:
         </p>
         <div className="ds block">
             <p className="ds-desc medium">

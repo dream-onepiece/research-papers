@@ -3,14 +3,21 @@ import CustomTable from "../commons/table";
 
 import './index.css';
 
-const ModelsComponent = () => {
+const ModelsComponent = ( props ) => {
+
+    const { showHeading = true } = props;
+
     return <div className="models component">
-        <h1 className="model-heading h1">
-        <a download={true} href="https://drive.google.com/uc?export=download&id=1MGJN1Fp21Q7lPbICNx2_D5qZg8gG0Qla"><img className="icon" src='./images/download.webp' alt='Download dataset' /></a> Download HaRT model pre-trained on Twitter <Link className="down-link" to="/dataset">dataset</Link>
-        </h1>
-        <p className="model-subhead h2">
-            Reference metrics:
-        </p>
+        { showHeading && 
+        <>
+            <h1 className="model-heading h1">
+                <a download={true} href="https://drive.google.com/uc?export=download&id=1MGJN1Fp21Q7lPbICNx2_D5qZg8gG0Qla"><img className="icon" src='./images/download.webp' alt='Download dataset' /></a> Download HaRT model pre-trained on Twitter <Link className="down-link" to="/dataset">dataset</Link>
+            </h1>
+            <p className="model-subhead h2">
+                Reference metrics:
+            </p>
+        </>
+        }
         <div className="tables">
             <div className="table-holder">
                 <h3 className="h3">Language Model Perplexity:</h3>
@@ -40,9 +47,11 @@ const ModelsComponent = () => {
             />
             </div>
         </div>
-        <p className="desc refer h1">
-            Refer our <a className="down-link" href='https://arxiv.org/pdf/2205.05128.pdf'>paper</a> for details.
-        </p>
+        {showHeading && 
+            <p className="desc refer h1">
+                Refer our <a className="down-link" href='https://arxiv.org/pdf/2205.05128.pdf'>paper</a> for details.
+            </p>
+        }
     </div>
 }
 

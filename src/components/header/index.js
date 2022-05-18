@@ -14,10 +14,14 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <div className='nav-link-block'>
+                        <div className="nav-link-block">
+                            <img src='./icons/code.svg' alt='' />
+                            <a className="nav-link" href="https://github.com/humanlab/HaRT">Download Models and Code</a>
+                        </div>
+                        {/*<div className='nav-link-block'>
                             <img src='./icons/cube.svg' alt='' />
                             <Link className="nav-link" to="/models">Model</Link>
-                        </div>
+                        </div>*/}
                         <div className="nav-link-block">
                             <img src='./icons/database.svg' alt='' />
                             <Link className="nav-link" to="/dataset">Dataset</Link>
@@ -27,9 +31,13 @@ const Header = () => {
                             <Link className="nav-link" to="/how-to-use">How to use?</Link>
                         </div>
                         <div className="nav-link-block">
+                            <img src='./icons/document.svg' alt='' />
+                            <a className="nav-link" href="https://github.com/humanlab/HaRT">Read Paper</a>
+                        </div>
+                        <div className="nav-link-block">
                             <img src='./icons/email.svg' alt='' />
                             <Link className="nav-link" to="/contact-us">Contact us</Link>
-                        </div> 
+                        </div>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
