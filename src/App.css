@@ -21,6 +21,14 @@ main.width-restrict {
     max-width: 50%;
 }
 
+.tagline {
+    margin-left: -10px;
+    background-color: rgba(172,163,163,10%);
+    padding: 10px;
+    margin-bottom: 18px;
+    border-radius: 4px;
+}
+
 .h1 {
     font-size: 27px;
     margin-bottom: 45px;

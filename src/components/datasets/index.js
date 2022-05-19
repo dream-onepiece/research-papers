@@ -2,13 +2,13 @@ import './index.css';
 
 const DataSetComponent = () => {
     return <div className="dataset">
-        <h1 className="ds heading h1">
-            Document-level Tasks Datasets:
+        <h1 className="ds heading h2">
+            Document-level Tasks Datasets
         </h1>
         <div className="ds block">
-            <p className="ds-title bold medium h2">Stance Detection:</p>
+            <p className="ds-title bold medium h3">Stance Detection</p>
             <p className="ds-desc medium">
-                <span className="ds-desc label bold h3">
+                <span className="ds-desc label bold body-copy">
                     Labeled dataset:  
                 </span>
                 <span className="ds-desc label normal body-copy">
@@ -16,7 +16,7 @@ const DataSetComponent = () => {
                 </span>
             </p>
             <p className="ds-desc medium">
-                <span className="ds-desc label bold h3">
+                <span className="ds-desc label bold body-copy">
                     Historical Context:
                 </span>
                 <span className="ds-desc label normal body-copy">
@@ -28,9 +28,9 @@ const DataSetComponent = () => {
             </p>
         </div>
         <div className="ds block">
-            <p className="ds-title bold medium h2">Sentiment Analysis:</p>
+            <p className="ds-title bold medium h3">Sentiment Analysis</p>
             <p className="ds-desc medium">
-                <span className="ds-desc label bold h3">
+                <span className="ds-desc label bold body-copy">
                     Labeled dataset:  
                 </span>
                 <span className="ds-desc label normal body-copy">
@@ -38,7 +38,7 @@ const DataSetComponent = () => {
                 </span>
             </p>
             <p className="ds-desc medium">
-                <span className="ds-desc label bold h3">
+                <span className="ds-desc label bold body-copy">
                     Historical Context: 
                 </span>
                 <span className="ds-desc label normal body-copy">
@@ -49,12 +49,12 @@ const DataSetComponent = () => {
             <a className='down-link' href="https://drive.google.com/uc?export=download&id=19KA3zp5BcPZjb5gtbKWWltlhGFVQJlOv">Download</a> Sentiment train, dev and test sets with history.
             </p>
         </div>
-        <p className="ds heading h1">
-            Pretraining and Evaluation Datasets:
+        <p className="ds heading h2">
+            Pretraining and Evaluation Datasets
         </p>
         <div className="ds block">
             <p className="ds-desc medium">
-                <span className="ds-desc label bold h3">
+                <span className="ds-desc label bold body-copy">
                     Dataset:  
                 </span>
                 <span className="ds-desc label normal body-copy">

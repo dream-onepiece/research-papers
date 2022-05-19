@@ -44,17 +44,17 @@ const Description = () => {
                 </p>
                 <p className='link-block'>
                     <img src='./images/paper.png' className='link-icon' alt='Read Paper' />
-                    <a href='https://arxiv.org/pdf/2205.05128.pdf' target="_blank">
+                    <a href='https://aclanthology.org/2022.findings-acl.52/' target="_blank">
                         Read paper
                     </a>
                 </p>
             </div>
             }
             <div className='goal-section'>
-                <h2 className='lan-heading h1'>
+                <h2 className='lan-heading h2 tagline'>
                     Language Modeling as a task grounded in the “natural”  generators of language, people.
                 </h2>
-                <p className='new-heading h2'>Objective:</p>
+                <p className='new-heading h2'>Objective</p>
                 <div className='parent-image'>
                     <img className='height-control' src='./images/goal.png' alt='Goal' />
                 </div>
@@ -65,7 +65,7 @@ const Description = () => {
                 </p>
             </div>
             
-            <p className='new-heading h2'>Background:</p>
+            <p className='new-heading h2'>Background</p>
             <p className='desc info body-copy'>
                 Language modeling is fundamental to NLP, with many large transformer based models becoming widespread.
             </p>

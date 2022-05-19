@@ -32,7 +32,7 @@ const Header = () => {
                         </div>
                         <div className="nav-link-block">
                             <img src='./icons/document.svg' alt='' />
-                            <a target="_blank" className="nav-link" href="https://arxiv.org/pdf/2205.05128.pdf">Read Paper</a>
+                            <a target="_blank" className="nav-link" href="https://aclanthology.org/2022.findings-acl.52/">Read Paper</a>
                         </div>
                         <div className="nav-link-block">
                             <img src='./icons/email.svg' alt='' />
