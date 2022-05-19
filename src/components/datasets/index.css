@@ -11,6 +11,11 @@
     font-weight: bold;
 }
 
+.dataset .ds-desc.label.italic {
+    font-style: italic;
+    margin-right: 5px;
+}
+
 .dataset .bold {
     padding-right: 5px;
 }

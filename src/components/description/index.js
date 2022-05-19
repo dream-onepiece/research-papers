@@ -52,7 +52,7 @@ const Description = () => {
             }
             <div className='goal-section'>
                 <h2 className='lan-heading h2 tagline'>
-                    Language Modeling as a task grounded in the “natural”  generators of language, people.
+                    Language Modeling as a task grounded in the "natural"  generators of language, people.
                 </h2>
                 <p className='new-heading h2'>Objective</p>
                 <div className='parent-image'>
@@ -61,7 +61,7 @@ const Description = () => {
                 <div className='child-image'>
                     <img className='overlay' src='./images/overlay.png' alt='' />
                 </div>
-                <p className='body-copy note' dangerouslySetInnerHTML={{__html: "To model the probability of the next word (<span class='par-scr'>w <span class='sub-scr'>{t,i}</span></span>) in the current document (t) based on past words(<span class='par-scr'>w <span class='sub-scr'>{t,1:i-1}</span></span>) in the document <span class='bold'> and the a user state (<span class='par-scr'>U <span class='sub-scr'>{1:t-1}</span></span>)</span>"}}>
+                <p className='body-copy note' dangerouslySetInnerHTML={{__html: "To model the probability of the next word <span class='par-scr'>w <span class='sub-scr'>{t,i}</span></span> in the current document <span class='par-scr'>t </span> based on past words <span class='par-scr'>w <span class='sub-scr'>{t,1:i-1}</span></span> in the document <span class='bold'> and a user state <span class='par-scr'>U <span class='sub-scr'>{1:t-1}</span></span></span>"}}>
                 </p>
             </div>
             

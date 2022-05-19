@@ -5,7 +5,7 @@ const HowToUseComponent = () => {
 
     return <div className="component how-to-use">
         <h1 className='h2 tagline'>
-            {"HaRT can be used like a traditional language model and more"}
+            {"HaRT can be used like a traditional language model and more..."}
         </h1>
 
         <div className='info-section'>
@@ -16,31 +16,31 @@ const HowToUseComponent = () => {
                 HaRT model pre-trained using Twitter <Link to="/dataset">dataset</Link> can be downloaded <a className="down-link" href='https://aclanthology.org/2022.findings-acl.52/'>here</a>.
             </p>
             <p>
-                The pre-trained HaRT model can be fine-tuned for: 
+                The pre-trained HaRT model can be fine-tuned for 
             </p>
             <ul>
                 <li>
-                    document-level tasks like any other pre-trained transformer-based language model:
+                    document-level tasks like any other pre-trained transformer-based language model
                     <ul>
                         <li>with user's historical context</li>
                         <li>without user's historical context (if unavailable)</li>
                     </ul>
                 </li>
                 
-                <li>Pre-trained HaRT can also be applied to user-level downstream tasks.</li>
+                <li>user-level downstream tasks.</li>
             </ul>
             
             <p className='top-space'>In our <a href="https://aclanthology.org/2022.findings-acl.52/" target="_blank">paper</a> ,we show two applications for each</p>
             <ul>
                 <li className='outer-li' >
-                    document-level tasks:
+                    document-level tasks
                     <ul>
                         <li>Sentiment Analysis</li>
                         <li>Stance Detection </li>
                     </ul>
                 </li>
                 <li className='outer-li'>
-                    user-level tasks:
+                    user-level tasks
                     <ul>
                         <li>Age estimation</li>
                         <li>(Openness) Personality assessment</li>
