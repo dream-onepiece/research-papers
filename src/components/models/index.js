@@ -20,7 +20,7 @@ const ModelsComponent = ( props ) => {
         }
         <div className="tables">
             <div className="table-holder">
-                <h3 className="h3">Language Model Perplexity</h3>
+                <h3 className="body-copy">Language Model Perplexity</h3>
                 <CustomTable
                 columns={['Model','Test-HLC (ppl)','Test-Twitter (ppl)']}
                 rows={
@@ -34,7 +34,7 @@ const ModelsComponent = ( props ) => {
             />
             </div>
             <div className="table-holder">
-                <h3 className="h3">Document-level Downstream Tasks</h3>
+                <h3 className="body-copy">Document-level Downstream Tasks</h3>
                 <CustomTable
                 columns={['Model','Stance (F1)','Sentiment (F1)']}
                 rows={

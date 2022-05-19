@@ -143,3 +143,7 @@
     letter-spacing: 1px;
     color: rgba(0,0,0,1);
 }
+
+.description .models-content .body-copy {
+    font-weight: bold;
+}
