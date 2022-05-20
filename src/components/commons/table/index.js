@@ -9,7 +9,7 @@ const CustomTable = ( props ) => {
     return <Table className="primary-font" bordered>
     <thead>
       <tr>
-        { columns.map(column => <th key={column}>{ column }</th>) }
+        { columns.map(column => <th key={column} dangerouslySetInnerHTML={{__html: column}}></th>) }
       </tr>
     </thead>
     <tbody>

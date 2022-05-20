@@ -24,7 +24,7 @@ const Header = () => {
                         </div>*/}
                         <div className="nav-link-block">
                             <img src='./icons/database.svg' alt='' />
-                            <Link className="nav-link" to="/dataset">Dataset</Link>
+                            <Link className="nav-link" to="/dataset">Datasets</Link>
                         </div>
                         <div className="nav-link-block">
                             <img src='./icons/manual-book.svg' alt='' />

@@ -63,7 +63,7 @@ const DataSetComponent = () => {
             </p>
             
             <p className="ds-desc download body-copy">
-            <a className='down-link' href="https://drive.google.com/uc?export=download&id=1D2a4q_oGaY9xIVJyFymnB1p_bCprQTgs">Download</a> user IDs for train, dev, and test sets.
+                <a className='down-link' href="https://drive.google.com/uc?export=download&id=1D2a4q_oGaY9xIVJyFymnB1p_bCprQTgs">Download</a> user IDs for train, dev, and test sets. The test set is the language modeling Twitter-only test set for HaRT-Twt.
             </p>
         </div>
     </div>

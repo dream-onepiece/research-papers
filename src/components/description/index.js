@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
 import ModelsComponent from '../models';
 import './index.css';
 
@@ -80,16 +81,51 @@ const Description = () => {
             <div className='video-block'>
                 <img src='./videos/gif_one.gif' className='gif-img' />
             </div>
-            <p className='desc small'>
-                <span className='left block body-copy'>
-                    Additionally, the inherent higher order structure of language, which is words come from documents and documents come from humans, is not explicit in the language modeling tasks of large LMs.
-                </span>
+            <div className='desc small'>
+                <div className='left block body-copy'>
+                    Additionally, the inherent higher order structure of language, 
+                    which is words come from documents and documents come from humans, 
+                    is not explicit in the language modeling tasks of large LMs.
+                </div>
+                <br />
+                <div className='hulm-block'>
+                    <div className='hulm-image'>
+                        <img className='medium-large' src='./images/hulm.PNG' alt='' />
+                    </div>
+                    <div className='links'>
+                        <div className='link-block'>
+                            <a href='https://aclanthology.org/P15-1073/' target='_blank'>Hovy, 2015</a>
+                            <a href='https://aclanthology.org/D17-1119/' target='_blank'>Lynn et al., 2017</a>
+                            <a href='https://aclanthology.org/S19-1015/' target='_blank'>Huang and Paul, 2019</a>
+                            <a href='https://aclanthology.org/2021.naacl-main.49/' target='_blank'>Hovy and Yang, 2021</a>
+                        </div>
+                        <div className='link-block'>
+                            <a href='https://aclanthology.org/2020.lrec-1.299/' target='_blank'>King & Cook, 2020</a>
+                            <a href='https://aclanthology.org/P18-2111/' target='_blank'>Jaech & Ostendorf, 2018</a>
+                            <a href='https://aclanthology.org/2021.findings-emnlp.253/' target='_blank'>Matero et al., 2021</a>
+                        </div>
+                        <div className='link-block'>
+                            <a href='https://aclanthology.org/P19-1285.pdf' target='_blank'>Dai et al., 2018</a>
+                            <a href='https://arxiv.org/abs/2004.05150' target='_blank'>Betalgy et al., 2020</a>
+                            <a href='https://arxiv.org/abs/2002.08909' target='_blank'>Guu et al., 2020</a>
+                            <a href='https://arxiv.org/abs/2008.07027' target='_blank'>Yoshida et al., 2020</a>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div className='left block body-copy'>
+                Indeed different ways of incorporating human information into NLP models have recently been shown to improve accuracy on many NLP tasks. 
+                HuLM brings together ideas from human factor inclusion/adaptation and personalized modeling into the framework of large pre-trained models.
+                While not the primary goal, human language modeling may yield effective approaches to extend the context during language modeling. 
+                So broadly, HuLM relates to 3 areas of prior work
+
+                </div>
                 
-            </p>
+            </div>
             <p className='new-heading h3'>Task: Human Language Modeling (HuLM)</p>
             <p className='desc info body-copy'>
                 <span className='left block'>
-                    To address these gaps, we propose Human Language Modeling (HuLM), a language modeling task grounded in the "natural" generators of language, people.
+                    To address the above gaps, we propose Human Language Modeling (HuLM), a language modeling task grounded in the "natural" generators of language, people.
                 </span>
             </p>
             
@@ -118,6 +154,11 @@ const Description = () => {
                 </video>
             </div>
             <p className='new-heading h3'>State-of-the-Art Results</p>
+            <p className='body-copy'>
+                We train HaRT on the <Link className='text-link' to='dataset'>Twitter dataset</Link> (HaRT-Twt) from our <a className='text-link' href='https://drive.google.com/uc?export=download&id=1MGJN1Fp21Q7lPbICNx2_D5qZg8gG0Qla' target='_blank'>paper</a> to release the model publicly.
+            For comparison, we evaluate HaRT-Twt on the language modeling task (over test data from the paper and Twitter-only test data) and document-level fine-tuning task.
+            HaRT-Twt has a slight difference in the results but is in alignment with the full HaRT model (pre-trained on HLC: Twitter and Facebook datasets).HaRT-Twt training and evaluations were run on two DGX A100 GPUs.
+            </p>
             <div className='models-content'>
                 <ModelsComponent showHeading={false} />
             </div>

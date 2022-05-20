@@ -4,7 +4,7 @@ import Header from '../components/header';
 const HowToUse = () => {
     return <div className="page">
         <Header />
-        <main className='light-center'>
+        <main className='center'>
             <HowToUseComponent />
         </main>
     </div>

@@ -22,12 +22,12 @@ const ModelsComponent = ( props ) => {
             <div className="table-holder">
                 <h3 className="body-copy">Language Model Perplexity</h3>
                 <CustomTable
-                columns={['Model','Test-HLC (ppl)','Test-Twitter (ppl)']}
+                columns={['Model','Test <span class="sub padding">HLC</span> (ppl)','Test <span class="sub padding">Twt</span> (ppl)']}
                 rows={
                     [
                         [{title: 'GPT-2', subTitle: 'frozen'},'116.35','144.67'],
                         [{title: 'GPT-2', subTitle: 'HLC'},'48.51','39.93'],
-                        [{title: 'HaRT', subTitle: 'Twitter'},'33.15','23.76'],
+                        [{title: 'HaRT', subTitle: 'Twt'},'33.15','23.76'],
                         ['HaRT','26.11','24.70']
                     ]
                 }
@@ -40,7 +40,7 @@ const ModelsComponent = ( props ) => {
                 rows={
                     [
                         [{title: 'GPT-2', subTitle: 'HLC'},'68.60','76.75'],
-                        [{title: 'HaRT', subTitle: 'Twitter'},'70.53','77.01'],
+                        [{title: 'HaRT', subTitle: 'Twt'},'70.53','77.01'],
                         ['HaRT','71.10','78.25']
                     ]
                 }

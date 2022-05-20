@@ -14,7 +14,11 @@
 }
 
 .models .table-holder:last-child {
-    margin-left: 175px;
+    margin-left: 75px;
+}
+
+.models .sub {
+    font-size: 8px;
 }
 
 .models .model-subhead {
