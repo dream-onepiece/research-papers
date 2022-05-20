@@ -6,8 +6,12 @@
     font-size: 10px;
 }
 
+th {
+    width: 100px;
+}
+
 table {
-    min-width: 400px;
+    min-width: 360px;
 }
 
 table.primary-font {
