@@ -6,12 +6,8 @@
     font-size: 10px;
 }
 
-th {
-    width: 33.33%;
-}
-
 table {
-    min-width: 420px;
+    min-width: 400px;
 }
 
 table.primary-font {

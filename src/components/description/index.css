@@ -132,9 +132,19 @@
     text-align: left;
 }
 
-.links .link-block:nth-child(2) {
+.links .link-block.purple {
+    background-color: rgba(217,210,233,0.5);
+}
+
+.links .link-block.green {
     margin-left: 45px;
     width: 235px;
+    background-color: rgba(217,234,211,0.5);
+}
+
+.links .link-block.blue {
+    background-color: rgba(201,218,248,0.5);
+    margin-left: 58px;
 }
 
 .links .link-block {
@@ -142,7 +152,6 @@
     flex-direction: column;
     width: 225px;
     margin-left: 65px;
-    background-color: rgba(0,0,0,0.05);
     padding: 5px 15px;
     border-radius: 6px;
 }

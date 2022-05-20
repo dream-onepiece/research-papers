@@ -76,7 +76,7 @@ const HowToUseComponent = () => {
         </p>
                 <h3 className="heading-sub h3">Inputs</h3> 
                 <p className="desc-use body-copy">The input format is the same but for an additional label column.</p>
-                <h3 className="heading-sub h3">Outputs</h3>
+                <h3 className="heading-sub h3">Output Metrics</h3>
                 <p className="desc-use body-copy">Weighted F1 (along with other metrics)</p>
         <h3 className='heading-sub h3' >
             Process
@@ -99,9 +99,12 @@ const HowToUseComponent = () => {
                 The input format is the same but for an additional label column (replicating the same label for the same user's different input text sequences).
             </p>
         <p>
-                <h3 className="heading-sub h3">Outputs</h3> 
+                <h3 className="heading-sub h3">Output Metrics</h3> 
                 <p className="desc-use body-copy">
-                    Pearson r correlation and dis-attenuated pearson r correlation  (along with other metrics)
+                    For regression task: Pearson r correlation and dis-attenuated pearson r correlation  (along with other metrics)
+                </p>
+                <p className="desc-use body-copy">
+                    For classification task: Weighted F1 (along with other metrics)
                 </p>
             </p>
         <h3 className='heading-sub h3'>

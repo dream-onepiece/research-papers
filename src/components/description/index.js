@@ -93,19 +93,19 @@ const Description = () => {
                         <img className='medium-large' src='./images/hulm.PNG' alt='' />
                     </div>
                     <div className='links'>
-                        <div className='link-block'>
+                        <div className='link-block purple'>
                             <a href='https://aclanthology.org/P15-1073/' target='_blank'>Hovy, 2015</a>
                             <a href='https://aclanthology.org/D17-1119/' target='_blank'>Lynn et al., 2017</a>
                             <a href='https://aclanthology.org/S19-1015/' target='_blank'>Huang and Paul, 2019</a>
                             <a href='https://aclanthology.org/2021.naacl-main.49/' target='_blank'>Hovy and Yang, 2021</a>
                         </div>
-                        <div className='link-block'>
+                        <div className='link-block green'>
                             <a href='https://aclanthology.org/2020.lrec-1.299/' target='_blank'>King & Cook, 2020</a>
                             <a href='https://aclanthology.org/P18-2111/' target='_blank'>Jaech & Ostendorf, 2018</a>
                             <a href='https://aclanthology.org/2021.findings-emnlp.253/' target='_blank'>Matero et al., 2021</a>
                         </div>
-                        <div className='link-block'>
-                            <a href='https://aclanthology.org/P19-1285.pdf' target='_blank'>Dai et al., 2018</a>
+                        <div className='link-block blue'>
+                            <a href='https://aclanthology.org/P19-1285/' target='_blank'>Dai et al., 2018</a>
                             <a href='https://arxiv.org/abs/2004.05150' target='_blank'>Betalgy et al., 2020</a>
                             <a href='https://arxiv.org/abs/2002.08909' target='_blank'>Guu et al., 2020</a>
                             <a href='https://arxiv.org/abs/2008.07027' target='_blank'>Yoshida et al., 2020</a>
@@ -148,7 +148,10 @@ const Description = () => {
             </div>
                 <p className='new-heading h3'>Method: Human-aware Recurrent Transformer (HaRT)</p>
             <div className='image desc block'>
-                <p className='desc body-copy'>To address HuLM, we introduce HaRT: Human-aware Recurrent Transformer, an auto-regressive transformer with a recurrent user state:</p>
+                <p className='desc body-copy'>
+                    To address HuLM, we introduce HaRT: Human-aware Recurrent Transformer, an auto-regressive transformer with a recurrent user state.
+                    HaRT builds on the recurrent Transformer approaches from <a href='https://arxiv.org/abs/2008.07027' target='_blank' className='text-link'>Yoshida et al., 2020</a> and Transformer-XL <br/>(<a href='https://aclanthology.org/P19-1285/' className='text-link' target='_blank'> Dai et al., 2019</a>).
+                </p>
                 <video ref={videoRef} autoPlay muted controls width="600px" >
                     <source src='./videos/video_transformer.mp4' type="video/mp4"/>
                 </video>
