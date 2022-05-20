@@ -56,14 +56,14 @@ const Description = () => {
                     Language Modeling as a task grounded in the "natural"  generators of language, people.
                 </h2>
                 <p className='new-heading h2'>Objective</p>
+                <p className='body-copy note' dangerouslySetInnerHTML={{__html: "To model the probability of the next word <span class='par-scr'>w <span class='sub-scr'>{t,i}</span></span> in the current document <span class='par-scr'>t </span> based on past words <span class='par-scr'>w <span class='sub-scr'>{t,1:i-1}</span></span> in the document <span class='bold'> and a user state <span class='par-scr'>U <span class='sub-scr'>{1:t-1}</span></span></span>"}}>
+                </p>
                 <div className='parent-image'>
                     <img className='height-control' src='./images/goal.png' alt='Goal' />
                 </div>
                 <div className='child-image'>
                     <img className='overlay' src='./images/overlay.png' alt='' />
                 </div>
-                <p className='body-copy note' dangerouslySetInnerHTML={{__html: "To model the probability of the next word <span class='par-scr'>w <span class='sub-scr'>{t,i}</span></span> in the current document <span class='par-scr'>t </span> based on past words <span class='par-scr'>w <span class='sub-scr'>{t,1:i-1}</span></span> in the document <span class='bold'> and a user state <span class='par-scr'>U <span class='sub-scr'>{1:t-1}</span></span></span>"}}>
-                </p>
             </div>
             
             <p className='new-heading h2'>Background</p>
@@ -89,9 +89,18 @@ const Description = () => {
                 </div>
                 <br />
                 <div className='hulm-block'>
+                    
+                <div className='left block body-copy'>
+                    Indeed different ways of incorporating human information into NLP models have recently been shown to improve accuracy on many NLP tasks. 
+                    HuLM brings together ideas from human factor inclusion/adaptation and personalized modeling into the framework of large pre-trained models.
+                    While not the primary goal, human language modeling may yield effective approaches to extend the context during language modeling. 
+                    So broadly, HuLM relates to 3 areas of prior work.
+                </div>
+                <br />
                     <div className='hulm-image'>
                         <img className='medium-large' src='./images/hulm.PNG' alt='' />
                     </div>
+                    
                     <div className='links'>
                         <div className='link-block purple'>
                             <a href='https://aclanthology.org/P15-1073/' target='_blank'>Hovy, 2015</a>
@@ -111,14 +120,6 @@ const Description = () => {
                             <a href='https://arxiv.org/abs/2008.07027' target='_blank'>Yoshida et al., 2020</a>
                         </div>
                     </div>
-                </div>
-                <br />
-                <div className='left block body-copy'>
-                Indeed different ways of incorporating human information into NLP models have recently been shown to improve accuracy on many NLP tasks. 
-                HuLM brings together ideas from human factor inclusion/adaptation and personalized modeling into the framework of large pre-trained models.
-                While not the primary goal, human language modeling may yield effective approaches to extend the context during language modeling. 
-                So broadly, HuLM relates to 3 areas of prior work
-
                 </div>
                 
             </div>
@@ -156,11 +157,28 @@ const Description = () => {
                     <source src='./videos/video_transformer.mp4' type="video/mp4"/>
                 </video>
             </div>
-            <p className='new-heading h3'>State-of-the-Art Results</p>
+            <div className='pre-training'>
+                <p className='new-heading h3'>
+                    Pre-training
+                </p>
+                <p className='body-copy'>
+                    We pre-train HaRT for the HuLM task on two datsets
+                </p>
+                <ul>
+                    <li>
+                        HuLM Corpus (HLC) from the paper: Twitter and Facebook datasets which we cannot release  for privacy considerations.
+                    </li>
+                    <li>
+                        The <Link className='text-link' to="/dataset">Twitter dataset</Link> (HaRT-Twt) from our <a href='https://aclanthology.org/2022.findings-acl.52/' className='text-link' target='_blank'>paper</a> to release the <a href='https://drive.google.com/uc?export=download&id=1MGJN1Fp21Q7lPbICNx2_D5qZg8gG0Qla' className='text-link' target='_blank'>model</a> publicly.
+                    </li>
+
+
+                </ul>
+            </div>
+            <p className='new-heading h2'>State-of-the-Art Results</p>
             <p className='body-copy'>
-                We train HaRT on the <Link className='text-link' to='dataset'>Twitter dataset</Link> (HaRT-Twt) from our <a className='text-link' href='https://drive.google.com/uc?export=download&id=1MGJN1Fp21Q7lPbICNx2_D5qZg8gG0Qla' target='_blank'>paper</a> to release the model publicly.
-            For comparison, we evaluate HaRT-Twt on the language modeling task (over test data from the paper and Twitter-only test data) and document-level fine-tuning task.
-            HaRT-Twt has a slight difference in the results but is in alignment with the full HaRT model (pre-trained on HLC: Twitter and Facebook datasets).HaRT-Twt training and evaluations were run on two DGX A100 GPUs.
+                For comparison, we evaluate HaRT-Twt on the language modeling task (over test data from the paper and Twitter-only test data) and document-level fine-tuning task.
+                HaRT-Twt has a slight difference in the results but is in alignment with the full HaRT model (pre-trained on HLC). HaRT-Twt training and evaluations were run on two DGX A100 GPUs. 
             </p>
             <div className='models-content'>
                 <ModelsComponent showHeading={false} />

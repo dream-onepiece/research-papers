@@ -39,9 +39,9 @@
 }
 
 .description .overlay {
-    height: 75px;
+    height: 60px;
     position: relative;
-    right: -75px;
+    right: -30px;
 }
 
 .description .desc.info {
@@ -49,7 +49,7 @@
 }
 
 .description .fundamental {
-    margin-bottom: 25px;
+    margin: 25px 0;
 }
 
 .description .video-block .gif-img {
@@ -65,7 +65,7 @@
 }
 
 .description img.medium {
-    height: 70px;
+    height: 42px;
 }
 
 .description .width-control {
@@ -119,7 +119,7 @@
 }
 
 .description .height-control {
-    height: 45px;
+    height: 23px;
 }
 
 .description .hulm-image {
@@ -133,18 +133,21 @@
 }
 
 .links .link-block.purple {
+    margin-left: 55px;
+    width: 255px;
     background-color: rgba(217,210,233,0.5);
 }
 
 .links .link-block.green {
-    margin-left: 45px;
-    width: 235px;
+    margin-left: 20px;
+    width: 250px;
     background-color: rgba(217,234,211,0.5);
 }
 
 .links .link-block.blue {
     background-color: rgba(201,218,248,0.5);
-    margin-left: 58px;
+    margin-left: 20px;
+    width: 250px;
 }
 
 .links .link-block {
@@ -158,11 +161,11 @@
 
 .link-block a {
     margin-bottom: 10px;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 14px;
+    font-weight: 100;
+    font-size: 16px;
     letter-spacing: 1px;
     color: rgba(0,0,0,1);
+    text-decoration-color: rgba(0,0,0,0.5);
 }
 
 .description .models-content .body-copy {

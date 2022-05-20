@@ -2,9 +2,10 @@ import './index.css';
 
 const DataSetComponent = () => {
     return <div className="dataset">
-        <h1 className="ds heading h2">
+        <h1 className='tagline h2'>The datasets used for HaRT-Twt model.</h1>
+        <h2 className="ds heading h2">
             Document-level Tasks Datasets
-        </h1>
+        </h2>
         <div className="ds block">
             <p className="ds-title bold medium h3">Stance Detection</p>
             <p className="ds-desc medium">

@@ -20,8 +20,14 @@
 
 .how-to-use .readme {
     margin-top: 45px;
+    font-weight: 300;
 }
 
 .how-to-use .readme-link {
     color: #010101;
+    text-decoration-color: rgba(0,0,0,0.4);
+}
+
+.how-to-use .zero-bottom {
+    margin-bottom: 0;
 }
