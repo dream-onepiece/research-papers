@@ -150,7 +150,7 @@ const Description = () => {
             <div className='image desc block'>
                 <p className='desc body-copy'>
                     To address HuLM, we introduce HaRT: Human-aware Recurrent Transformer, an auto-regressive transformer with a recurrent user state.
-                    HaRT builds on the recurrent Transformer approaches from <a href='https://arxiv.org/abs/2008.07027' target='_blank' className='text-link'>Yoshida et al., 2020</a> and Transformer-XL <br/>(<a href='https://aclanthology.org/P19-1285/' className='text-link' target='_blank'> Dai et al., 2019</a>).
+                    HaRT builds on the recurrent Transformer approaches from <a href='https://arxiv.org/abs/2008.07027' target='_blank' className='text-link'>Yoshida et al., 2020</a> and Transformer-XL (<a href='https://aclanthology.org/P19-1285/' className='text-link' target='_blank'> Dai et al., 2019</a>).
                 </p>
                 <video ref={videoRef} autoPlay muted controls width="600px" >
                     <source src='./videos/video_transformer.mp4' type="video/mp4"/>
