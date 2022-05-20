@@ -1,3 +1,7 @@
 .contact-us .mail-link {
     color: #444141;
 }
+
+.contact-us .contact-desc {
+    font-weight: 300;
+}
