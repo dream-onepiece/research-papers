@@ -74,6 +74,7 @@
 
 .description .links {
     display: flex;
+    justify-content: space-around;
 }
 
 .description .goal-section {
@@ -133,28 +134,46 @@
 }
 
 .links .link-block.purple {
-    margin-left: 65px;
-    width: 250px;
     background-color: rgba(217,210,233,0.5);
 }
 
 .links .link-block.green {
-    margin-left: 20px;
-    width: 250px;
     background-color: rgba(217,234,211,0.5);
 }
 
 .links .link-block.blue {
     background-color: rgba(201,218,248,0.5);
-    margin-left: 20px;
+}
+
+.links .image-box {
     width: 250px;
+    height: 106px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding: 25px 15px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: rgba(0,0,0,0.6);
+    border: 1px solid rgba(0,0,0,0.6);
+}
+
+.links .image-box.purple {
+    background: rgb(217, 210, 233);
+}
+
+.links .image-box.green {
+    background-color: rgb(208, 224, 227);
+}
+
+.links .image-box.blue {
+    background-color: rgb(201, 218, 248);
 }
 
 .links .link-block {
     display: flex;
     flex-direction: column;
-    width: 225px;
-    margin-left: 65px;
+    width: 250px;
     padding: 5px 15px;
     border-radius: 6px;
 }
