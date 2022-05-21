@@ -12,7 +12,7 @@ const HowToUseComponent = () => {
         <p className='info-text body-copy'>
             
             <p>
-                HaRT pre-trains on the <Link to="/">HuLM</Link> task, making use of the historical data from a user. 
+                HaRT pre-trains on the <Link to={{pathname: '/', hash: '#hulm'}}>HuLM</Link> task, making use of the historical data from a user. 
                 HaRT model pre-trained using Twitter <Link to="/dataset">dataset</Link> can be downloaded <a className="down-link" href='https://drive.google.com/uc?export=download&id=1MGJN1Fp21Q7lPbICNx2_D5qZg8gG0Qla' target='_blank'>here</a>.
             </p>
             <p>

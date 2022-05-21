@@ -20,7 +20,19 @@ const Description = () => {
 
     useEffect(() => {
         //window.addEventListener('scroll', playVideoOnScroll, false);
+        scrollIntoView();
     }, [])
+
+    const scrollIntoView = () => {
+        const hashParameter = window.location.hash;
+
+        if(hashParameter) {
+            const element = document.querySelector(hashParameter);
+            element && element.scrollIntoView({
+                behavior: 'smooth'
+            }) ;
+        }
+    }
 
     return <div className='description'>
         { true && <div className='content'>
@@ -123,7 +135,7 @@ const Description = () => {
                 </div>
                 
             </div>
-            <p className='new-heading h3'>Task: Human Language Modeling (HuLM)</p>
+            <p id='hulm' className='new-heading h3'>Task: Human Language Modeling (HuLM)</p>
             <p className='desc info body-copy'>
                 <span className='left block'>
                     To address the above gaps, we propose Human Language Modeling (HuLM), a language modeling task grounded in the "natural" generators of language, people.
