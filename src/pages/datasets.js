@@ -4,7 +4,7 @@ import DataSetComponent from '../components/datasets';
 const DataSets = () => {
     return <div className="page">
         <Header />
-        <main className='width-restrict'>
+        <main className='center'>
             <DataSetComponent />
         </main>
     </div>

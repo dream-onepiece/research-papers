@@ -169,7 +169,7 @@ const Description = () => {
                         HuLM Corpus (HLC) from the paper: Twitter and Facebook datasets which we cannot release  for privacy considerations.
                     </li>
                     <li>
-                        The <Link className='text-link' to="/dataset">Twitter dataset</Link> (HaRT-Twt) from our <a href='https://aclanthology.org/2022.findings-acl.52/' className='text-link' target='_blank'>paper</a> to release the <a href='https://drive.google.com/uc?export=download&id=1MGJN1Fp21Q7lPbICNx2_D5qZg8gG0Qla' className='text-link' target='_blank'>model</a> publicly.
+                        The <Link className='text-link' to="/dataset">Twitter dataset</Link> (HaRT<span className='sub'>Twt</span>) from our <a href='https://aclanthology.org/2022.findings-acl.52/' className='text-link' target='_blank'>paper</a> to release the <a href='https://drive.google.com/uc?export=download&id=1MGJN1Fp21Q7lPbICNx2_D5qZg8gG0Qla' className='text-link' target='_blank'>model</a> publicly.
                     </li>
 
 
@@ -177,8 +177,8 @@ const Description = () => {
             </div>
             <p className='new-heading h2'>State-of-the-Art Results</p>
             <p className='body-copy'>
-                For comparison, we evaluate HaRT-Twt on the language modeling task (over test data from the paper and Twitter-only test data) and document-level fine-tuning task.
-                HaRT-Twt has a slight difference in the results but is in alignment with the full HaRT model (pre-trained on HLC). HaRT-Twt training and evaluations were run on two DGX A100 GPUs. 
+                For comparison, we evaluate HaRT<span className='sub'>Twt</span> on the language modeling task (over test data from the paper and Twitter-only test data) and document-level fine-tuning task.
+                HaRT<span className='sub'>Twt</span> has a slight difference in the results but is in alignment with the full HaRT model (pre-trained on HLC). HaRT<span className='sub'>Twt</span> training and evaluations were run on two DGX A100 GPUs. 
             </p>
             <div className='models-content'>
                 <ModelsComponent showHeading={false} />

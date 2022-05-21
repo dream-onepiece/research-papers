@@ -17,6 +17,10 @@ main.light-center {
     max-width: 75%;
 }
 
+.sub {
+    font-size: 10px;
+}
+
 main.width-restrict {
     max-width: 50%;
 }
@@ -29,6 +33,10 @@ main.width-restrict {
     margin-bottom: 18px;
     border-radius: 15px;
     width: max-content;
+}
+
+.tagline .sub {
+    font-size: 12px;
 }
 
 .h1 {
