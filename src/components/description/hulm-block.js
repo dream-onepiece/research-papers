@@ -31,6 +31,7 @@ const HulmBlock = () => {
                                 <a href='https://aclanthology.org/2020.lrec-1.299/' target='_blank'>King & Cook, 2020</a>
                                 <a href='https://aclanthology.org/P18-2111/' target='_blank'>Jaech & Ostendorf, 2018</a>
                                 <a href='https://aclanthology.org/2021.findings-emnlp.253/' target='_blank'>Matero et al., 2021</a>
+                                <a href="https://ieeexplore.ieee.org/document/8970806" target='_blank'>Delasalles et al., 2019</a>
                             </div>
                         </div>
                         <div className="content-block">
