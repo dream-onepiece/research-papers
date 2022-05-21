@@ -22,8 +22,8 @@ const HowToUseComponent = () => {
                 <li>
                     document-level tasks like any other pre-trained transformer-based language model
                     <ul>
-                        <li>with user's historical context</li>
-                        <li>without user's historical context (if unavailable)</li>
+                        <li>with user's historical context.</li>
+                        <li>without user's historical context (if unavailable).</li>
                     </ul>
                 </li>
                 

@@ -152,7 +152,7 @@ const Description = () => {
                         HuLM Corpus (HLC) from the paper: Twitter and Facebook datasets which we cannot release  for privacy considerations.
                     </li>
                     <li>
-                        The <Link className='text-link' to="/dataset">Twitter dataset</Link> (HaRT<span className='sub'>Twt</span>) from our <a href='https://aclanthology.org/2022.findings-acl.52/' className='text-link' target='_blank'>paper</a> to release the <a href='https://drive.google.com/uc?export=download&id=1MGJN1Fp21Q7lPbICNx2_D5qZg8gG0Qla' className='text-link' target='_blank'>model</a> publicly.
+                        The Twitter <Link className='text-link' to="/dataset">dataset</Link> (HaRT<span className='sub'>Twt</span>) from our <a href='https://aclanthology.org/2022.findings-acl.52/' className='text-link' target='_blank'>paper</a> to release the <a href='https://drive.google.com/uc?export=download&id=1MGJN1Fp21Q7lPbICNx2_D5qZg8gG0Qla' className='text-link' target='_blank'>model</a> publicly.
                     </li>
 
 
