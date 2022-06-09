@@ -116,7 +116,7 @@ const HowToUseComponent = () => {
             </p>
         
         <p className="desc-use readme h2">
-            Refer the github <a href="#" className='readme-link' target="_blank">readme</a> for more details.
+            Refer the github <a href="https://github.com/humanlab/HaRT#readme" className='readme-link' target="_blank">readme</a> for more details.
         </p>
     </div>
 
